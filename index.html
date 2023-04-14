@@ -80,6 +80,9 @@ else if(data.weather[0].main == "Mist"){
 else if(data.weather[0].main == "Haze"){
     weatherIcon.src = "haze.png";
 }
+else if(data.weather[0].main == "Haze"){
+    weatherIcon.src = "snow.png";
+}
 document.querySelector(".weather").style.display = "block";
 document.querySelector(".error").style.display = "none";
  }
